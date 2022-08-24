@@ -1,0 +1,481 @@
+  @media only screen and (max-width: 1280px) {
+
+    h2.view-shop {
+      font-size: 150px;
+    }
+
+    div.logo {
+      font-size: 50px;
+    }
+
+    div.logo_black {
+      font-size: 50px;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px
+    }
+
+    /* PRODUCT PAGES */
+
+    div.product_description {
+        top: 30%;
+        padding: 0 25px 0 25px;
+    }
+
+    div.sizing_description {
+        top: 30%;
+        padding: 0 25px 0 25px;
+    }
+
+    div.size {
+      width: auto;
+    }
+
+    button.cart_button {
+      height: 40px;
+      width: 300px;
+    }
+
+    .active-popup {
+      width: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    h2.view-shop {
+      font-size: 100px;
+    }
+
+    div.logo {
+      font-size: 40px;
+    }
+
+    div.logo_black {
+      font-size: 40px;
+    }
+
+    div.background-img {
+      background-position: 30%;
+    }
+
+    /* PRODUCT PAGES */
+
+    div.product_description {
+        top: 20%;
+        padding: 0 15px 0 15px;
+    }
+
+    div.sizing_description {
+        top: 20%;
+        padding: 0 15px 0 15px;
+    }
+
+    div.size {
+      width: auto;
+    }
+
+    button.cart_button {
+      height: 40px;
+      width: 300px;
+    }
+
+    /* COLLECTIONS */
+
+    main.collections_body {
+      margin: 0 15px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+
+    .slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 37%;
+      height: 100%;
+      margin: 20px 15px 20px 15px;
+    }
+
+    /* CART MENU*/
+    .active-popup {
+      width: 40%;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 767px) {
+
+    div.background-img {
+      background-image: url('../images/image_1.jpg');
+      background-size: cover;
+      background-position: 35%;
+      background-repeat: no-repeat;
+      /* background-position: center; */
+      height: auto;
+      width: 100vw;
+    }
+
+  header {
+    padding: 0 15px 0;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 0 15px 0;
+  }
+
+  div.logo {
+    font-size: 30px;
+  }
+
+  a.logo_home_white {
+    font-size: 30px;
+  }
+
+  div.logo_black {
+    font-size: 30px;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav {
+    color: #000;
+    font-size: 16px;
+  }
+
+  nav a:link {
+    color: #000;
+    padding: 0 .5em;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #000;
+  }
+
+  section.wrapper {
+    margin: 0 15px 0;
+    height: 90vh;
+  }
+
+  div.container {
+    width: 400px;
+    height: auto;
+    /* padding: 15px; */
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 15px;
+  }
+
+  .glass_writing {
+    font-size: 67px;
+  }
+
+  div.glass-2 {
+    /* padding: 15px 15px 15px 15px; */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 285px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  h2.view-shop {
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    padding: 10px;
+  }
+
+  div.regular_footer {
+    border-top: solid #000 1px;
+    height: 285px;
+    z-index: 100px;
+    margin: 0 80px 0 80px;
+    dis
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  /* SHOP PAGE*/
+  section.grid {
+    height: auto;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, minmax(.12vw, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 15px 0;
+    overflow: hidden;
+  }
+
+  div.image_1_container {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  div.image_2_container {
+    grid-column: 3/ 5;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_3_container {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_4_container {
+    grid-column: 3 / 5;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_5_container {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_6_container {
+    grid-column: 3 / 5;
+    grid-row: 3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_7_container {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  div.image_8_container {
+    grid-column: 3 / 5;
+    grid-row: 4;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  /* PRODUCT 1 PAGE */
+
+  section.product_grid {
+    height: auto;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, minmax(.12vw, 1fr));
+    grid-template-rows: (4, 1fr);
+    margin: 0 15px 0;
+  }
+
+  div.product_description {
+      grid-column: 1 / 5;
+      grid-row: 2;
+      /* background-color: aliceblue; */
+      position: relative;
+      top: 0;
+      /* left: 0; */
+      align-self: center;
+      text-align: center;
+      padding: 0 15px 0 15px;
+  }
+
+  div.sizing_description {
+      grid-column: 1 / 5;
+      grid-row: 3;
+      align-self: center;
+      text-align: center;
+      padding: 0 15px 0 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* background-color: aliceblue; */
+  }
+
+  div.size {
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  button.cart_button {
+    background: #000;
+    color: #fff;
+    height: 40px;
+    width: 300px;
+    align-self: center;
+    text-align: center;
+  }
+
+  div.photo_gallery {
+      grid-column: 1 / 5;
+      grid-row: 1;
+      width: auto;
+      height: auto;
+      padding-top: 10%;
+      /* background-color: aliceblue; */
+  }
+
+  /* INFO PAGE */
+  main.info_wrapper {
+    margin: 0 15px 0;
+  }
+
+  /* COLLECTIONS */
+
+  main.collections_body {
+    margin: 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* CART MENU*/
+  .active-popup {
+    width: 100%;
+  }
+
+  /* HAMBURGER MENU */
+  .hamburger {
+    /* top: 35px; */
+    left: 15px;
+  }
+
+  }
+
+  @media only screen and (max-width: 640px) {
+    div.background-img {
+      background-position: 30%;
+    }
+
+    div.logo_black {
+      font-size: 40px;
+    }
+
+    /* PRODUCT PAGES */
+
+
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    div.background-img {
+      background-image: url('../images/image_1.jpg');
+      background-size: cover;
+      background-position: 35%;
+      background-repeat: no-repeat;
+      /* background-position: center; */
+      height: auto;
+      width: 100vw;
+    }
+
+    header {
+      width: 100%;
+    }
+
+    .hamburger {
+      position: absolute;
+      top: 25px;
+      left: 15px;
+      cursor: pointer;
+    }
+
+    .hamburger-part {
+      width: 30px;
+      height: 2px;
+      background-color: #222;
+    }
+
+    /* INDEX PAGE */
+
+    div.container {
+      width: 200px;
+      height: 100px;
+      /* padding: 15px; */
+      position: absolute;
+      top: 500px;
+      bottom: 15px;
+      padding: 15px;
+    }
+
+    h3.glass_writing {
+      font-size: 20px;
+    }
+  }
